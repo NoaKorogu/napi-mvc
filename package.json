@@ -1,0 +1,39 @@
+{
+  "name": "napi-mvc",
+  "version": "2.0.0",
+  "description": "RAD tool for rapid API development - Auto-generate CRUD routes, models, and controllers from MySQL database",
+  "main": "lib/index.js",
+  "bin": {
+    "napi-mvc": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "publish": "npm publish"
+  },
+  "keywords": [
+    "rad",
+    "crud",
+    "api",
+    "mysql",
+    "generator",
+    "rest",
+    "mvc"
+  ],
+  "author": "Your Name <your-email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NoaKorogu/napi-mvc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NoaKorogu/napi-mvc/issues"
+  },
+  "homepage": "https://github.com/NoaKorogu/napi-mvc#readme",
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
