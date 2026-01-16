@@ -1,6 +1,6 @@
 {
   "name": "@noakorogu/napi-mvc",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "RAD tool for rapid API development - Auto-generate CRUD routes, models, and controllers from MySQL database",
   "main": "lib/index.js",
   "bin": {
